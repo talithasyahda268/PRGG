@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -29,6 +30,7 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#WebMap">WebMap</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Peta Pariwisata</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio Pantai</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
@@ -108,7 +110,34 @@
                     </iframe>
             </div>
         </section>
+        
+        <!-- Peta Pariwisata Slider -->
+        <section class="page-section" id="guidebook">
+            <div class="container text-center">
+                <h2 class="section-heading text-uppercase">Peta Pariwisata</h2>
+                <p class="section-subheading text-muted">Swipe ke kiri–kanan untuk melihat peta</p>
+            </div>
 
+            <div class="swiper" style="width: 70%; padding-bottom: 40px;">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/hal1.png" style="width:100%; border-radius:10px;">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/hal2.png" style="width:100%; border-radius:10px;">
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+        
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
@@ -287,5 +316,16 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: false,
+            spaceBetween: 20,
+            slidesPerView: 1,
+            pagination: { el: '.swiper-pagination', clickable: true },
+            navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+        });
+        </script>
     </body>
 </html>
