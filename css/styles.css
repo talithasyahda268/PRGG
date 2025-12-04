@@ -11315,6 +11315,16 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+/* Ubah warna tulisan navbar jadi putih */
+.navbar-brand {
+    color: #ffffff !important;   
+    font-weight: 700;
+}
+
+.navbar-brand:hover {
+    color: #dddddd !important;  /* sedikit abu untuk efek hover */
+}
+
 /* Ubah warna tombol utama */
 .btn-primary {
     background-color: #0066ff !important;
