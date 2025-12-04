@@ -11361,3 +11361,8 @@ body, h1, h2, h3, h4, h5, h6, p, a, span, div, nav, button, input, textarea {
     background-color: #212529 !important;
     color: white !important;
 }
+
+#Kontak {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
