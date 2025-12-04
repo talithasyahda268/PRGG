@@ -11356,3 +11356,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 body, h1, h2, h3, h4, h5, h6, p, a, span, div, nav, button, input, textarea {
     font-family: Arial, sans-serif !important;
 }
+
+#Kontak {
+    background-color: #212529 !important;
+    color: white !important;
+}
