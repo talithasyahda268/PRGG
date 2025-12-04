@@ -11351,3 +11351,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .fa-stack .fa-circle {
     color: #0066ff !important;
 }
+
+/* Ganti semua font menjadi Arial */
+body, h1, h2, h3, h4, h5, h6, p, a, span, div, nav, button, input, textarea {
+    font-family: Arial, sans-serif !important;
+}
